@@ -1,1 +1,5 @@
 # answer-repo
+#Function to accept a name parameter and return a random number between 6 to 15 appended to it with a space.
+import random
+def name_num( name ):   #Function definition start
+    return name+" "+str(random.randint(6,15)) #Concatenate and return result. Used randint function to generate random number
